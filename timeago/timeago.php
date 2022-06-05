@@ -4,6 +4,7 @@
         public function __construct(
             public string $year = "year",
             public string $mounth = "mounth",
+            public string $week = "week"
             public string $day = "day",
             public string $hour = "hour",
             public string $minute = "minute",
@@ -11,6 +12,7 @@
         ){
             $this->year = $year;
             $this->mounth = $mounth;
+            $this->week = $week;
             $this->day = $day;
             $this->hour = $hour;
             $this->minute = $minute;
@@ -31,7 +33,7 @@
             $tokens = array(
                 31536000 => $this->year,
                 2592000 => $this->mounth,
-                604800 => $this->day,
+                604800 => $this->week,
                 86400 => $this->day,
                 3600 => $this->hour,
                 60 => $this->minute,
