@@ -32,7 +32,7 @@
                 31536000 => $this->year,
                 2592000 => $this->mounth,
                 604800 => $this->day,
-                86400 => $this->day,
+                86400 => $this->week,
                 3600 => $this->hour,
                 60 => $this->minute,
                 1 => $this->second
