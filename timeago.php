@@ -4,6 +4,7 @@
         public function __construct(
             public string $year = "year",
             public string $mounth = "mounth",
+            public string $week = "week",
             public string $day = "day",
             public string $hour = "hour",
             public string $minute = "minute",
